@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
 const CONNECTION_URL =
-  "mongodb+srv://varan:A213qSZl5WRBnaCj@cluster0.b7zcw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://varan:@cluster0.b7zcw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5000;
 
